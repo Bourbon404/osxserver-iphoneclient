@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A22EF09174336540017C732 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22EF08174336540017C732 /* Cocoa.framework */; };
+		4A22EF13174336540017C732 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EF11174336540017C732 /* InfoPlist.strings */; };
+		4A22EF15174336540017C732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22EF14174336540017C732 /* main.m */; };
+		4A22EF19174336540017C732 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EF17174336540017C732 /* Credits.rtf */; };
+		4A22EF1C174336540017C732 /* KAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22EF1B174336540017C732 /* KAppDelegate.m */; };
+		4A22EF1F174336540017C732 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EF1D174336540017C732 /* MainMenu.xib */; };
+		4A22EF27174336F80017C732 /* KServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22EF26174336F80017C732 /* KServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A22EF05174336540017C732 /* MyServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A22EF08174336540017C732 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A22EF0B174336540017C732 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A22EF0C174336540017C732 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A22EF0D174336540017C732 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A22EF10174336540017C732 /* MyServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyServer-Info.plist"; sourceTree = "<group>"; };
+		4A22EF12174336540017C732 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A22EF14174336540017C732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A22EF16174336540017C732 /* MyServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyServer-Prefix.pch"; sourceTree = "<group>"; };
+		4A22EF18174336540017C732 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A22EF1A174336540017C732 /* KAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppDelegate.h; sourceTree = "<group>"; };
+		4A22EF1B174336540017C732 /* KAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegate.m; sourceTree = "<group>"; };
+		4A22EF1E174336540017C732 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A22EF25174336F80017C732 /* KServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KServer.h; sourceTree = "<group>"; };
+		4A22EF26174336F80017C732 /* KServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A22EF02174336540017C732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A22EF09174336540017C732 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A22EEFC174336540017C732 = {
+			isa = PBXGroup;
+			children = (
+				4A22EF0E174336540017C732 /* MyServer */,
+				4A22EF07174336540017C732 /* Frameworks */,
+				4A22EF06174336540017C732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A22EF06174336540017C732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EF05174336540017C732 /* MyServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A22EF07174336540017C732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EF08174336540017C732 /* Cocoa.framework */,
+				4A22EF0A174336540017C732 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A22EF0A174336540017C732 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EF0B174336540017C732 /* AppKit.framework */,
+				4A22EF0C174336540017C732 /* CoreData.framework */,
+				4A22EF0D174336540017C732 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A22EF0E174336540017C732 /* MyServer */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EF1A174336540017C732 /* KAppDelegate.h */,
+				4A22EF1B174336540017C732 /* KAppDelegate.m */,
+				4A22EF1D174336540017C732 /* MainMenu.xib */,
+				4A22EF0F174336540017C732 /* Supporting Files */,
+				4A22EF25174336F80017C732 /* KServer.h */,
+				4A22EF26174336F80017C732 /* KServer.m */,
+			);
+			path = MyServer;
+			sourceTree = "<group>";
+		};
+		4A22EF0F174336540017C732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EF10174336540017C732 /* MyServer-Info.plist */,
+				4A22EF11174336540017C732 /* InfoPlist.strings */,
+				4A22EF14174336540017C732 /* main.m */,
+				4A22EF16174336540017C732 /* MyServer-Prefix.pch */,
+				4A22EF17174336540017C732 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A22EF04174336540017C732 /* MyServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A22EF22174336540017C732 /* Build configuration list for PBXNativeTarget "MyServer" */;
+			buildPhases = (
+				4A22EF01174336540017C732 /* Sources */,
+				4A22EF02174336540017C732 /* Frameworks */,
+				4A22EF03174336540017C732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyServer;
+			productName = MyServer;
+			productReference = 4A22EF05174336540017C732 /* MyServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A22EEFD174336540017C732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = K;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kevin;
+			};
+			buildConfigurationList = 4A22EF00174336540017C732 /* Build configuration list for PBXProject "MyServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A22EEFC174336540017C732;
+			productRefGroup = 4A22EF06174336540017C732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A22EF04174336540017C732 /* MyServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A22EF03174336540017C732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A22EF13174336540017C732 /* InfoPlist.strings in Resources */,
+				4A22EF19174336540017C732 /* Credits.rtf in Resources */,
+				4A22EF1F174336540017C732 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A22EF01174336540017C732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A22EF15174336540017C732 /* main.m in Sources */,
+				4A22EF1C174336540017C732 /* KAppDelegate.m in Sources */,
+				4A22EF27174336F80017C732 /* KServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A22EF11174336540017C732 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A22EF12174336540017C732 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A22EF17174336540017C732 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A22EF18174336540017C732 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A22EF1D174336540017C732 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A22EF1E174336540017C732 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A22EF20174336540017C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A22EF21174336540017C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A22EF23174336540017C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyServer/MyServer-Prefix.pch";
+				INFOPLIST_FILE = "MyServer/MyServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A22EF24174336540017C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyServer/MyServer-Prefix.pch";
+				INFOPLIST_FILE = "MyServer/MyServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A22EF00174336540017C732 /* Build configuration list for PBXProject "MyServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A22EF20174336540017C732 /* Debug */,
+				4A22EF21174336540017C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A22EF22174336540017C732 /* Build configuration list for PBXNativeTarget "MyServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A22EF23174336540017C732 /* Debug */,
+				4A22EF24174336540017C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A22EEFD174336540017C732 /* Project object */;
+}

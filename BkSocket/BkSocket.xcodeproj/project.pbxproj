@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A22EE811742902A0017C732 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22EE801742902A0017C732 /* UIKit.framework */; };
+		4A22EE831742902A0017C732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22EE821742902A0017C732 /* Foundation.framework */; };
+		4A22EE851742902A0017C732 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22EE841742902A0017C732 /* CoreGraphics.framework */; };
+		4A22EE8B1742902A0017C732 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EE891742902A0017C732 /* InfoPlist.strings */; };
+		4A22EE8D1742902A0017C732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22EE8C1742902A0017C732 /* main.m */; };
+		4A22EE911742902A0017C732 /* KAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22EE901742902A0017C732 /* KAppDelegate.m */; };
+		4A22EE931742902A0017C732 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EE921742902A0017C732 /* Default.png */; };
+		4A22EE951742902A0017C732 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EE941742902A0017C732 /* Default@2x.png */; };
+		4A22EE971742902A0017C732 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EE961742902A0017C732 /* Default-568h@2x.png */; };
+		4A22EE9A1742902A0017C732 /* KMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22EE991742902A0017C732 /* KMasterViewController.m */; };
+		4A22EE9D1742902A0017C732 /* KDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22EE9C1742902A0017C732 /* KDetailViewController.m */; };
+		4A22EEA01742902A0017C732 /* KMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EE9E1742902A0017C732 /* KMasterViewController.xib */; };
+		4A22EEA31742902A0017C732 /* KDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EEA11742902A0017C732 /* KDetailViewController.xib */; };
+		4A22EEAA174294580017C732 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22EEA9174294580017C732 /* AVFoundation.framework */; };
+		4A22EEAC174294D70017C732 /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A22EEAB174294D70017C732 /* Music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A22EE7D1742902A0017C732 /* BkSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BkSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A22EE801742902A0017C732 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A22EE821742902A0017C732 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A22EE841742902A0017C732 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A22EE881742902A0017C732 /* BkSocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BkSocket-Info.plist"; sourceTree = "<group>"; };
+		4A22EE8A1742902A0017C732 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A22EE8C1742902A0017C732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A22EE8E1742902A0017C732 /* BkSocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BkSocket-Prefix.pch"; sourceTree = "<group>"; };
+		4A22EE8F1742902A0017C732 /* KAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppDelegate.h; sourceTree = "<group>"; };
+		4A22EE901742902A0017C732 /* KAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegate.m; sourceTree = "<group>"; };
+		4A22EE921742902A0017C732 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4A22EE941742902A0017C732 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4A22EE961742902A0017C732 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4A22EE981742902A0017C732 /* KMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMasterViewController.h; sourceTree = "<group>"; };
+		4A22EE991742902A0017C732 /* KMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMasterViewController.m; sourceTree = "<group>"; };
+		4A22EE9B1742902A0017C732 /* KDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDetailViewController.h; sourceTree = "<group>"; };
+		4A22EE9C1742902A0017C732 /* KDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDetailViewController.m; sourceTree = "<group>"; };
+		4A22EE9F1742902A0017C732 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KMasterViewController.xib; sourceTree = "<group>"; };
+		4A22EEA21742902A0017C732 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KDetailViewController.xib; sourceTree = "<group>"; };
+		4A22EEA9174294580017C732 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A22EEAB174294D70017C732 /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A22EE7A1742902A0017C732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A22EEAA174294580017C732 /* AVFoundation.framework in Frameworks */,
+				4A22EE811742902A0017C732 /* UIKit.framework in Frameworks */,
+				4A22EE831742902A0017C732 /* Foundation.framework in Frameworks */,
+				4A22EE851742902A0017C732 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A22EE741742902A0017C732 = {
+			isa = PBXGroup;
+			children = (
+				4A22EEA9174294580017C732 /* AVFoundation.framework */,
+				4A22EE861742902A0017C732 /* BkSocket */,
+				4A22EE7F1742902A0017C732 /* Frameworks */,
+				4A22EE7E1742902A0017C732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A22EE7E1742902A0017C732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EE7D1742902A0017C732 /* BkSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A22EE7F1742902A0017C732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EE801742902A0017C732 /* UIKit.framework */,
+				4A22EE821742902A0017C732 /* Foundation.framework */,
+				4A22EE841742902A0017C732 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A22EE861742902A0017C732 /* BkSocket */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EE8F1742902A0017C732 /* KAppDelegate.h */,
+				4A22EE901742902A0017C732 /* KAppDelegate.m */,
+				4A22EE981742902A0017C732 /* KMasterViewController.h */,
+				4A22EE991742902A0017C732 /* KMasterViewController.m */,
+				4A22EEAB174294D70017C732 /* Music.mp3 */,
+				4A22EE9B1742902A0017C732 /* KDetailViewController.h */,
+				4A22EE9C1742902A0017C732 /* KDetailViewController.m */,
+				4A22EE9E1742902A0017C732 /* KMasterViewController.xib */,
+				4A22EEA11742902A0017C732 /* KDetailViewController.xib */,
+				4A22EE871742902A0017C732 /* Supporting Files */,
+			);
+			path = BkSocket;
+			sourceTree = "<group>";
+		};
+		4A22EE871742902A0017C732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A22EE881742902A0017C732 /* BkSocket-Info.plist */,
+				4A22EE891742902A0017C732 /* InfoPlist.strings */,
+				4A22EE8C1742902A0017C732 /* main.m */,
+				4A22EE8E1742902A0017C732 /* BkSocket-Prefix.pch */,
+				4A22EE921742902A0017C732 /* Default.png */,
+				4A22EE941742902A0017C732 /* Default@2x.png */,
+				4A22EE961742902A0017C732 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A22EE7C1742902A0017C732 /* BkSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A22EEA61742902A0017C732 /* Build configuration list for PBXNativeTarget "BkSocket" */;
+			buildPhases = (
+				4A22EE791742902A0017C732 /* Sources */,
+				4A22EE7A1742902A0017C732 /* Frameworks */,
+				4A22EE7B1742902A0017C732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BkSocket;
+			productName = BkSocket;
+			productReference = 4A22EE7D1742902A0017C732 /* BkSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A22EE751742902A0017C732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = K;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kevin;
+			};
+			buildConfigurationList = 4A22EE781742902A0017C732 /* Build configuration list for PBXProject "BkSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A22EE741742902A0017C732;
+			productRefGroup = 4A22EE7E1742902A0017C732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A22EE7C1742902A0017C732 /* BkSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A22EE7B1742902A0017C732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A22EE8B1742902A0017C732 /* InfoPlist.strings in Resources */,
+				4A22EE931742902A0017C732 /* Default.png in Resources */,
+				4A22EE951742902A0017C732 /* Default@2x.png in Resources */,
+				4A22EE971742902A0017C732 /* Default-568h@2x.png in Resources */,
+				4A22EEA01742902A0017C732 /* KMasterViewController.xib in Resources */,
+				4A22EEA31742902A0017C732 /* KDetailViewController.xib in Resources */,
+				4A22EEAC174294D70017C732 /* Music.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A22EE791742902A0017C732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A22EE8D1742902A0017C732 /* main.m in Sources */,
+				4A22EE911742902A0017C732 /* KAppDelegate.m in Sources */,
+				4A22EE9A1742902A0017C732 /* KMasterViewController.m in Sources */,
+				4A22EE9D1742902A0017C732 /* KDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A22EE891742902A0017C732 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A22EE8A1742902A0017C732 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A22EE9E1742902A0017C732 /* KMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A22EE9F1742902A0017C732 /* en */,
+			);
+			name = KMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		4A22EEA11742902A0017C732 /* KDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A22EEA21742902A0017C732 /* en */,
+			);
+			name = KDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A22EEA41742902A0017C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A22EEA51742902A0017C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A22EEA71742902A0017C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BkSocket/BkSocket-Prefix.pch";
+				INFOPLIST_FILE = "BkSocket/BkSocket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A22EEA81742902A0017C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BkSocket/BkSocket-Prefix.pch";
+				INFOPLIST_FILE = "BkSocket/BkSocket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A22EE781742902A0017C732 /* Build configuration list for PBXProject "BkSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A22EEA41742902A0017C732 /* Debug */,
+				4A22EEA51742902A0017C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A22EEA61742902A0017C732 /* Build configuration list for PBXNativeTarget "BkSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A22EEA71742902A0017C732 /* Debug */,
+				4A22EEA81742902A0017C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A22EE751742902A0017C732 /* Project object */;
+}
