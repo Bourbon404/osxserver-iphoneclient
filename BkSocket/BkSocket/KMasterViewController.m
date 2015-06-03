@@ -62,8 +62,8 @@
         
   //      [self PlayMP3];
         
-        NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@:%@", @"10.86.35.157", @"58555"]];
-//        NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@:%@", @"192.168.1.97", @"53438"]];
+//        NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@:%@", @"10.86.35.157", @"58555"]];
+        NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@:%@", @"192.168.1.97", @"53438"]];
         
         [NSThread detachNewThreadSelector:@selector(Work_Thread:) toTarget:self withObject:url];
     }
